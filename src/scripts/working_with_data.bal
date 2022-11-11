@@ -9,7 +9,7 @@ type Country record {
     int deaths;
 };
 
-// Test the automation PR
+// Test the automation
 
 // Prints the top 10 countries having the highest case-fatality ratio.
 public function main() returns error? {
