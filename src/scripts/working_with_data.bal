@@ -9,6 +9,8 @@ type Country record {
     int deaths;
 };
 
+// Test the automation
+
 // Prints the top 10 countries having the highest case-fatality ratio.
 public function main() returns error? {
     http:Client diseaseEp = check new ("https://disease.sh/v3");
