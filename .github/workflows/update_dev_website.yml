@@ -27,6 +27,6 @@ jobs:
         run: python3 src/scripts/update_dev_website.py
         env:
           BALLERINA_BOT_USERNAME: "udda1996"
-          BALLERINA_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BALLERINA_BOT_TOKEN: ${{ secrets.GUIDES_TOKEN }}
           BALLERINA_BOT_EMAIL: "charuka.udupitiya@gmail.com"
-          BALLERINA_REVIEWER_BOT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BALLERINA_REVIEWER_BOT_TOKEN: ${{ secrets.GUIDES_TOKEN }}
