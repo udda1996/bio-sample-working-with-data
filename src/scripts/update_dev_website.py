@@ -42,7 +42,7 @@ def main():
 def commit_file(file_path, updated_file_content, commit_branch, commit_message):
     try:
         author = InputGitAuthor(ballerina_bot_username, ballerina_bot_email)
-        repo = github.get_repo('ballerina-platform/ballerina-dev-website', 'master')
+        repo = github.get_repo('udda1996/ballerina-dev-website', 'master')
         remote_file = repo.get_contents(file_path)
 
         base = repo.get_branch('master')
